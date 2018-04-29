@@ -1,0 +1,12 @@
+** Create a new repository on GitHub **
+mkdir GitHubRepoAssignment
+cd GitHubRepoAssignment
+git init
+touch readme.md
+vim readme.md
+** add description to reamd.md file **
+git status
+git add .
+git commit -m "initial commit"
+git remote add origin https://github.com/ehoversten/GitHubRepoAssignment.git
+git push -u origin master
